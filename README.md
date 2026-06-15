@@ -1,9 +1,9 @@
-# MLKL, kinase-domain, and NLR phylogenetic analyses
+# MLKL and kinase-domain phylogenetic analyses
 
-This repository contains three related phylogenetic analyses for MLKL
-proteins, broader kinase-domain proteins, and NLR NB-ARC domains. It also
-includes annotation notes for the Helixer, NLRtracker, and InterProScan
-steps that generated inputs used by those analyses.
+This repository contains related phylogenetic analyses for MLKL proteins and
+broader kinase-domain proteins. It also includes annotation notes for the
+Helixer, NLRtracker, and InterProScan steps that generated inputs used by those
+analyses.
 
 ## Analyses
 
@@ -11,7 +11,6 @@ steps that generated inputs used by those analyses.
 | --- | --- | --- |
 | MLKL kinase-domain phylogeny | [`analyses/mlkl_phylogeny/`](analyses/mlkl_phylogeny/) | MLKL candidate tables, MLKL-NLR pair tables, curated kinase-domain FASTA files, alignments, trees, and scripts |
 | Broad kinase-domain tree | [`analyses/kinase_domain_tree/`](analyses/kinase_domain_tree/) | IPR011009 protein/domain tables, combined kinase-domain FASTA files, alignment, tree, tree map, and scripts |
-| NLR NB-ARC phylogeny | [`analyses/nlr_phylogeny/`](analyses/nlr_phylogeny/) | NB-ARC FASTA files, MLKL-paired NLR sequence sets, alignments, trees, and scripts |
 
 ## Annotation Notes
 
@@ -31,10 +30,6 @@ analyses/
     scripts/
     results/
   kinase_domain_tree/
-    metadata/
-    scripts/
-    results/
-  nlr_phylogeny/
     metadata/
     scripts/
     results/
